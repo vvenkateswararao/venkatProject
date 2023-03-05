@@ -1,0 +1,14 @@
+.bgImg {
+    background-image: url('src/assets/bgLaptop.jpg');
+    opacity: 0.7;
+    background-size: 650px 800px;
+}
+.marginTop {
+    margin-top: 45px;
+}
+.bgColor {
+    background-color: rgb(28, 30, 83);
+}
+.btnColor {
+    background-color: #D5B038;
+}

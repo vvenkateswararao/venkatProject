@@ -1,0 +1,80 @@
+.sidebar {
+   margin: 0;
+   padding: 0;
+   width: 200px;
+   height: 100%;
+}
+
+.sidebar a {
+   display: block;
+   color: black;
+   padding: 16px;
+   text-decoration: none;
+}
+.bgClass {
+    background-color: #1c1e53;
+    color: white;
+    height: 50px;
+}
+.bgColor {
+    background-color: #D3D3D3;
+    padding-bottom: 37px;
+}
+.bgColorTable {
+    background-color: white;
+    margin-top: 50px;
+}
+.imgStyling {
+    height: 55px;
+    width: 75px;
+    border-radius: 10%;
+}
+.imgCellWidth {
+    width: 5%;
+}
+.descClass {
+    margin-top: -5px;
+}
+.contentCellWidth {
+    width: 35%;
+}
+.progressCellWidth {
+    width: 50%;
+}
+.linkCellWidth {
+    width: 10%;
+}
+.overflowClass {
+    overflow-x: auto;
+}
+.doughnutPadding {
+    padding-bottom: 12px;
+}
+.fadeout {
+    background-color: white;
+    opacity: 0.5;
+}
+.searchWidth {
+    width: 250px;
+}
+.headerColor {
+    color: #D3D3D3;
+}
+:host ::ng-deep .p-element .p-dropdown {
+    height: 35px;
+}
+:host ::ng-deep .p-dropdown .p-dropdown-label.p-placeholder {
+    margin-top: -8px;
+}
+.borderRadius {
+    border-radius: 2%;
+}
+.borderRadiusTable {
+    border-radius: 1%;
+}
+.imgCircle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    padding-right: 5px;
+}

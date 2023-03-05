@@ -1,0 +1,51 @@
+.backGroundColor {
+    background-color:rgb(28, 30, 83)
+}
+.textColor {
+    color: white;
+}
+.borderColor {
+    border-color: white;
+}
+.btnColor {
+    background-color: #D5B038;
+}
+.marginClass {
+    margin-top: 80px;
+}
+.bgColor {
+    background-color: #D3D3D3;
+    min-height: 200px;
+}
+.marginClassCourses {
+    margin-top: 50px;
+}
+.courseClass {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.cardStyle {
+    background-color: #D3D3D3;
+    margin-top: 20px;
+}
+.marginBottom {
+    margin-bottom: 50px;
+}
+.marginClassCards {
+    margin-top: 70px;
+}
+.bgCard {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(8, 8, 153);
+    color: white;
+    text-align: center;
+    border-radius: 15%;
+    margin-bottom: 7px;
+}
+.fontSize {
+    font-size: 23px;
+    color: blue;
+}

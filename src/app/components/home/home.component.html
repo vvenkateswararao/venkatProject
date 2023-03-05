@@ -1,0 +1,126 @@
+<div class="container-fluid">
+    <div class="backGroundColor">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand textColor" href="#"><b>[EDUFREE]</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link textColor" routerLink="/">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textColor" routerLink="teachingStaff">TEACHING STAFF</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textColor" routerLink="courses">COURSES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textColor" routerLink="faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn borderColor textColor" routerLink='/login'>LOGIN</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-md-6 textColor marginClass">
+                    <div class="row">
+                        <div class="col">
+                            <h1>
+                                <b>
+                                    Welcome to Edufree Courses
+                                </b>
+                            </h1>
+                            <h1>
+                                <b>
+                                    Bersama EDUFREE
+                                </b>
+                            </h1>
+                            <p>
+                                A computer program can easily produce gibberish - especially if it has been provided
+                                with
+                                garbage
+                                beforehand. This program does something a little different.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-5">
+                            <button type="button" class="btn btnColor">Link to Courses</button>
+                            <span class="ms-5">To know more <i class="pi pi-arrow-right ps-2"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/mainImage.png" alt="img" style="width:100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bgColor">
+        <div class="row text-center">
+            <div class="col-lg-6 marginClassCourses">
+                <div class="row">
+                    <div *ngFor="let ele of counts" class="col">
+                        <h1>{{ele.header}}</h1>
+                        <p>{{ele.desc}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 marginClassCourses">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="courseClass"><i class="pi pi-book fontSize pe-2"></i>CSE</span>
+                        <span class="courseClass"><i class="pi pi-clone fontSize pe-2"></i>IT</span>
+                        <span class="courseClass"><i class="pi pi-eject fontSize pe-2"></i>EEE</span>
+                    </div>
+                    <div class="col-sm-6">
+                        <span class="courseClass"><i class="pi pi-database fontSize pe-2"></i>MECH</span>
+                        <span class="courseClass"><i class="pi pi-envelope fontSize pe-2"></i>CIVIL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="marginClassCards">
+            <div class="text-center">
+                <h1>
+                    Educational courses available for free
+                </h1>
+                <h1>
+                    e-learning in EDUFREE
+                </h1>
+            </div>
+            <div class="row">
+                <div *ngFor="let card of cards.slice(0, 3)" class="col-sm-4">
+                    <div class="card cardStyle">
+                        <div class="card-body">
+                            <div class="bgCard">{{card.id}}</div>
+                            <h5 class="card-title">{{card.title}}</h5>
+                            <p class="card-text">{{card.desc}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row marginBottom">
+                <div *ngFor="let card of cards.slice(3)" class="col-sm-4">
+                    <div class="card cardStyle">
+                        <div class="card-body">
+                            <div class="bgCard">{{card.id}}</div>
+                            <h5 class="card-title">{{card.title}}</h5>
+                            <p class="card-text">{{card.desc}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
